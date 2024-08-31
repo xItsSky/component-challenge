@@ -43,29 +43,29 @@
           "style": "scss"
         }
       },
-      "root": "projects/documentation",
-      "sourceRoot": "projects/documentation/src",
+      "root": "documentation",
+      "sourceRoot": "documentation/src",
       "prefix": "sky-library",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/documentation",
-            "index": "projects/documentation/src/index.html",
-            "browser": "projects/documentation/src/main.ts",
+            "index": "documentation/src/index.html",
+            "browser": "documentation/src/main.ts",
             "polyfills": [
               "zone.js"
             ],
-            "tsConfig": "projects/documentation/tsconfig.app.json",
+            "tsConfig": "documentation/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/documentation/public"
+                "input": "documentation/public"
               }
             ],
             "styles": [
-              "projects/documentation/src/styles.scss"
+              "documentation/src/styles.scss"
             ],
             "scripts": []
           },
@@ -115,16 +115,16 @@
               "zone.js",
               "zone.js/testing"
             ],
-            "tsConfig": "projects/documentation/tsconfig.spec.json",
+            "tsConfig": "documentation/tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/documentation/public"
+                "input": "documentation/public"
               }
             ],
             "styles": [
-              "projects/documentation/src/styles.scss"
+              "documentation/src/styles.scss"
             ],
             "scripts": []
           }

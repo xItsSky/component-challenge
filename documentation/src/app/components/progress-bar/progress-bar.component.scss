@@ -1,0 +1,36 @@
+.sky-library-progress-bar {
+
+  h1{
+    font-size: 1.2rem;
+  }
+
+  h2{
+    font-size: 1rem;
+  }
+
+  &__demo-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    &__demo-elt {
+      width: 30%;
+    }
+  }
+
+  &__api {
+
+    table, th, td {
+      border: 1px solid #DCDCDC;
+    }
+
+    th, td {
+      text-align: center;
+      padding: 0.5rem;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+  }
+}
